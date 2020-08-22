@@ -12,10 +12,7 @@ namespace Library
         public string Name { get; set; }
         public string Publisher { get; set; }
 
-        public Book(
-            string author,
-            string name,
-            string publisher)
+        public Book(string author,string name,string publisher)
         {
             this.Author = author;
             this.Name = name;

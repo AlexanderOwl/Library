@@ -26,9 +26,9 @@ namespace Library
                             "\n save - " +
                             "\n load - " +
                             "\n take - " +
-                            "\n return");
-                        
+                            "\n return - ");                        
                         break;
+
                     case "add":
                         Add(books);
                         break;
@@ -161,6 +161,7 @@ namespace Library
                 Console.WriteLine("Пустой поиск!");
                 Console.ResetColor();
             }
+
             if (!find)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
